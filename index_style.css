@@ -1,0 +1,142 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: white;
+    background-position: center; 
+    font-family: sans-serif;
+}
+
+.header
+{
+    background-color: #34495e;
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    color: whitesmoke;
+    margin-right: 150px; 
+    font-size: 24px;
+    font-family: sans-serif;
+    text-shadow: 2px 3px red;
+    font-weight:bold;
+}
+
+.search
+{
+ 
+    text-align: center; 
+    margin-bottom: 2px;
+    
+      
+}
+
+input[type=text]
+{
+    width: 30%;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 1px;
+    margin-top: 20px;
+    
+}
+
+input[type=submit]
+{
+    
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #f4a460;
+    color: white;
+    margin-top: 20px;
+    margin-right: 150px;
+
+}
+
+.menu-bar
+{
+    text-align: center;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.active, .menu-bar ul li:hover
+{
+    background-color: #8dadce;
+    border-radius: 6px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: #34495e;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #b2ff00;
+}
+
+.footer
+{
+    text-align: center;
+   
+    background-color: #46617c;
+    padding: 2px;
+    color: white;
+  
+}
